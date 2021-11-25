@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673808225751",
+    "project_id": "bait-restaurant",
+    "storage_bucket": "bait-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673808225751:android:391731d59f4e81b3596792",
+        "android_client_info": {
+          "package_name": "com.app.taybatApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673808225751-phgpegiqllfuud6lsdbu8lun052o187r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjT7qUCPSnmwMZFwNC4bHhyDL0DpGlCyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673808225751-phgpegiqllfuud6lsdbu8lun052o187r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

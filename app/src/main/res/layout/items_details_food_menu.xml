@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_itemsMainMenu"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layoutDirection="rtl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/image_items_details_food_menu_imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/title_items_details_food_menu_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/stv_bold"
+            android:text="TextView"
+            android:textColor="@color/app_main_color_brown"
+            android:textSize="22sp"
+            app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/price_items_details_food_menu"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/yellow_circle_shape"
+            android:fontFamily="@font/stv_bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="0.0"
+            android:textColor="@color/white_color"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/bag_itemsDetailsFoodMenu_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_items_details_food_menu_imageView"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <ImageView
+            android:id="@+id/bag_itemsDetailsFoodMenu_textView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:background="@drawable/yellow_circle_shape"
+            android:gravity="center"
+            android:src="@drawable/shopping_cart"
+            app:layout_constraintBottom_toTopOf="@+id/image_items_details_food_menu_imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.08"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/price_items_details_food_menu" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

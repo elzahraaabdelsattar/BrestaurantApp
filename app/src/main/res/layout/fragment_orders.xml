@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:id="@+id/order_fragment_layout"
+    tools:context="com.app.taybatApplication.ui.orderDescription.OrdersFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:fontFamily="@font/stv_bold"
+            android:text="@string/order_details_OrderFragment"
+            android:textColor="@color/black_color"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.865"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_orderFragment"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:layout_editor_absoluteY="74dp" />
+
+        <NumberPicker
+            android:id="@+id/number_picker_orders_fragment"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:scaleX="1.0"
+            android:scaleY="0.7"
+            android:theme="@style/NumberPickerText"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/buy_now_orderFragment_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/amount_fragmentOrder"
+            tools:layout_editor_absoluteY="74dp" />
+
+
+        <Button
+            android:id="@+id/buy_now_orderFragment_button"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/yellow_back_border"
+            android:fontFamily="@font/stv_bold"
+            android:text="@string/buy_now_orderFragment"
+            android:textColor="@color/app_main_color_brown"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/number_picker_orders_fragment"
+             />
+
+        <TextView
+            android:id="@+id/amount_fragmentOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:text="@string/ammount_ordersFragment"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black_color"
+            android:textSize="22sp"
+            android:fontFamily="@font/stv_bold"
+            app:layout_constraintTop_toBottomOf="@+id/recycler_view_orderFragment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+             />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_fragment_orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:constraint_referenced_ids="recycler_view_orderFragment,textView14" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

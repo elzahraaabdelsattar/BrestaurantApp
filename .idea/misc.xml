@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_check.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_location.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_payment.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_about.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_bag.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects/STS/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/items_bag_details.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/drawable/back_border.xml" value="0.13914473684210527" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_about_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_bag.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_branches.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_check.xml" value="0.2" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_complaints.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_confirmation.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_food_menu.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_forget_password.xml" value="0.33" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_location.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_my_orders.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_order_description.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_review.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_sign_in.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_sign_up.xml" value="0.18958333333333333" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/activity_splash_screen.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_about.xml" value="0.19010416666666666" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_bag.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_complaints.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_my_orders.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_reservation.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/content_review.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/fragment_description.xml" value="0.18" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/fragment_orders.xml" value="0.18" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/item_my_orders.xml" value="0.12006578947368421" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/items_details_food_menu.xml" value="0.12894736842105264" />
+        <entry key="..\:/Projects/STS/Taybat..PUblish Version/Taybat Restaurant Application(4-11)/TaybatRestaurant/app/src/main/res/layout/items_fragment_order.xml" value="0.12006578947368421" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

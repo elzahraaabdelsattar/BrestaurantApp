@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/app_main_color_orange</item>
+        <item name="colorPrimaryDark">@color/app_main_color_brown</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Navigation Drawer -->
+        <item name="colorNavigationItem">@color/white_color</item>
+        <item name="colorNavigationItemSelected">@color/black_color</item>
+        <item name="drawableNavigationItemBackground">@drawable/menu_background_color_state</item>
+    </style>
+
+    <style name="Widget.Custom.NavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemIconTint">?attr/colorNavigationItem</item>
+        <item name="itemTextColor">?attr/colorNavigationItem</item>
+        <item name="itemSpacing">@color/black_color</item>
+        <item name="itemBackground">?attr/drawableNavigationItemBackground</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <!-- Customize your theme here. -->
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="NumberPickerText">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+
+
+</resources>

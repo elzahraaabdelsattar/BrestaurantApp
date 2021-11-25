@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/deliver_way_container"
+    android:background="@drawable/grey_rectangle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="280dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline1">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/to_home_DeliverWay_cardView"
+            android:layout_width="150dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/white_rectangle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/delivery_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                     android:fontFamily="@font/stv_bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/app_main_color_brown"
+                    android:text="@string/deliver_home_DeliveryWay" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/from_restaurant_DeliverWay_cardView"
+            android:layout_width="150dp"
+            android:layout_height="240dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/white_rectangle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/resturant_chef" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/app_main_color_brown"
+                     android:fontFamily="@font/stv_bold"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:text="@string/take_from_restaurant_deliveryWay" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+         android:fontFamily="@font/stv_bold"
+        android:text="@string/how_to_receive_order_deliverWay"
+        android:textSize="18sp"
+        android:textColor="@color/app_main_color_brown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="44dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

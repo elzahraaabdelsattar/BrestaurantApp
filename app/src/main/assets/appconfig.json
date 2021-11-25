@@ -1,0 +1,5 @@
+{ "merchantKey":"aac0b4d77d596303c7d0923b0437ce6b790c47c14bb675b9016950d8fbf9e4f1",
+  "terminalId": "bait",
+  "terminalPass": "bait@URWAY_944",
+  "requestUrl":"https://payments.urway-tech.com/URWAYPGService/transaction/jsonProcess/JSONrequest"
+}

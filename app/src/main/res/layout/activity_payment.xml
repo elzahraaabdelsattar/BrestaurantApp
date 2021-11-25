@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_grey_color"
+    android:layoutDirection="rtl"
+    tools:context=".ui.PaymentActivity">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/tool_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="263dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="297dp" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="426dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="469dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="539dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/wallet_icon"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/include2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ellipsize="end"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline1"
+        app:layout_constraintVertical_bias="0.193">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yellow_circle_shape"
+            android:gravity="center"
+             android:fontFamily="@font/stv_bold"
+            android:text="۱"
+            android:textColor="@color/black_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+             android:fontFamily="@font/stv_bold"
+            android:text="@string/notes_paymentActivity"
+            android:textColor="@color/app_main_color_brown"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/notes_paymentActivity_editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/grey_rec_grey_border"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:hint="@string/write_notes_paymentActivity"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="16sp"
+         android:fontFamily="@font/stv_bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline2"
+        app:layout_goneMarginEnd="16dp"
+        tools:ignore="TextFields" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:ellipsize="end"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.193">
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/yellow_circle_shape"
+            android:gravity="center"
+             android:fontFamily="@font/stv_bold"
+            android:text="۲"
+            android:textColor="@color/black_color"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+             android:fontFamily="@font/stv_bold"
+            android:text="@string/payment_way_paymentActivity"
+            android:textColor="@color/app_main_color_brown"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/send_paymentActivity_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/yellow_color_rectangle"
+        android:padding="0dp"
+         android:fontFamily="@font/stv_bold"
+        android:text="@string/confirm_order_paymentActivity"
+        android:textColor="@color/white_color"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline8" />
+
+    <ProgressBar
+        android:id="@+id/forgetPassword_progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/primary_color_progress_bar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/payment_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintTop_toBottomOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="506dp" >
+
+        <RadioButton
+            android:id="@+id/cash_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_radibutton"
+            android:button="@android:color/transparent"
+            android:checked="true"
+             android:fontFamily="@font/stv_bold"
+            android:textColor="@drawable/text_radiobutton_color"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:text="@string/cash_payment_paymentActivity" />
+
+        <RadioButton
+            android:id="@+id/online_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_radibutton"
+            android:button="@android:color/transparent"
+            android:checked="false"
+             android:fontFamily="@font/stv_bold"
+            android:textColor="@drawable/text_radiobutton_color"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:text="@string/online_payment_paymentAcivity" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

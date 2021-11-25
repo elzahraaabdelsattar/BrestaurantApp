@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#008577</color>-->
+<!--    <color name="colorPrimaryDark">#00574B</color>-->
+<!--    <color name="colorAccent">#D81B60</color>-->
+<!--    <color name="white">#FFFFFF</color>-->
+<!--    <color name="white_trans">#99FFFFFF</color>-->
+
+<!--    <color name="colorPrimary">#00b2ee</color>-->
+<!--    <color name="colorPrimaryDark">#007FFF</color>-->
+<!--    <color name="colorAccent">#00b2ee</color>-->
+
+        <color name="colorPrimary">#B3007FFF</color>
+        <color name="colorPrimaryDark">#B3007FF3</color>
+        <color name="colorAccent">#00C0FF</color>
+
+    <color name="colorAccenttransparent">#b300b2ee</color>
+    <color name="colorAccentlight">#ADD7E5</color>
+    <color name="Accenttransparenttnew">#B3007FFF</color>
+    <!--   <color name="colorAccent">#651FFF</color>-->
+
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#e5e5e5</color>
+    <color name="ActionBarLigthColor">#CCF2FF</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="skyblue">#00C0FF</color>
+    <!-- Placeholder colors-->
+    <color name="stay_color">#999999</color>
+    <color name="black_tra">#B3000000</color>
+    <color name="colorPrimary_green">#72A735</color>
+    <color name="skyblue_tra">#8000C0FF</color>
+    <color name="dark_olive_green">#4682b4</color>
+    <color name="fb_button_color">#3b5998</color>
+    <color name="gp_button_color">#D34836</color>
+    <color name="light_gray">#cccccc</color>
+
+    <color name="gray">#C0C0C0</color>
+
+    <array name="array_dot_active">
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+        <item>@color/white</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+    </array>
+
+    <color name="red">#F00</color>
+    <color name="green">#3cb371</color>
+    <color name="blue">#00F</color>
+    <color name="yellow">#FF0</color>
+
+    <integer-array name="color_array">
+        <item>@color/red</item>
+        <item>@color/green</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+    </integer-array>
+
+    <color name="material_gray">#bdbdbd</color>
+
+    <color name="menu_one">#E10201</color>
+    <color name="menu_two">#EA842E</color>
+    <color name="menu_three">#01B35D</color>
+    <color name="menu_four">#01ACB4</color>
+    <color name="menu_five">#056387</color>
+    <color name="menu_six">#19385A</color>
+    <color name="menu_seven">#E10201</color>
+    <color name="menu_eight">#EA842E</color>
+    <color name="menu_nine">#01B35D</color>
+    <color name="menu_ten">#01ACB4</color>
+    <color name="menu_eleven">#056387</color>
+    <color name="menu_tw">#19385A</color>
+    <color name="menu_thrithy">#E10201</color>
+    <color name="menu_fourteen">#EA842E</color>
+    <color name="signupColor">#066e8a</color>
+</resources>

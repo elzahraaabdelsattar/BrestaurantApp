@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">بيت الطيبات</string>
+    <string name="contact_info_reviewActivity">معلومات الاتصال</string>
+    <string name="last_name_reviewActivity">الاسم الاخير</string>
+    <string name="first_name_reviewActivity">الاسم الاول</string>
+    <string name="comments_reviewActivity">التعليق</string>
+    <string name="review_reviewActivity">التقييم</string>
+    <string name="send_reviewActivity">ارسال</string>
+    <string name="phone_reviewActivity">رقم الهاتف</string>
+    <string name="email_reviewActivity">البريد الالكتروني</string>
+    <string name="close">اغلاق</string>
+    <string name="open">فتح</string>
+    <string name="menu_home">الرئيسيه</string>
+    <string name="menu_bag">الحقيبه</string>
+    <string name="menu_suggestion">الاقتراحات</string>
+    <string name="menu_tables">الحجوزات</string>
+    <string name="menu_review">التقييم</string>
+    <string name="menu_about_us">عن المطعم</string>
+    <string name="restaurant_about">يعتبر مطعم بيت الطيبات من اعرق المطاعم بالمملكة يقدم أفضل واشهر الوجبات الشرقية وغيرها ، يميز المطعم المذاق الطيب والصحي واللحوم الطازجة، المعدة على ايدي أمهر وأفضل الطهاة بالمملكة ، ولا ننسى الحلويات و المشروبات وقد تم إضافة كافة المأكولات التي تناسب جميع الأذواق.
+
+تقدم فروع ⁧مطاعم بيت الطيبات⁩ ما لذ وطاب من ⁧المأكولات الشرقية⁩ في ⁧الطائف⁩
+
+و نسعى إلى أن نكون معلما حضاريا بارزاً في قطاع المطاعم والمطابخ ، حيث يلمس الزائر أجواء الفخامة والرقي إضافة إلى الكفاءة المهنية والحرفية العالية التي يتمتع بها جميع أفراد طاقم الخدمة
+
+كما أن الطهاة لدينا يقومون بإعداد الاطباق باستخدام المكونات الطازجة والمختارة بعناية للامتثال وتطبيق اعلى معايير السلامة والجودة.
+</string>
+    <string name="restaurant_name">بيت الطيبات</string>
+    <string name="A.K.D_complaintsActivity">المملكه العربيه السعوديه</string>
+    <string name="restauramt_address_complaintActivity">٨٨٦٤ شهار، أم العراد، الطائف</string>
+    <string name="restaurant_phone_complaintsActivity">+966 12 745 2642</string>
+    <string name="name_complaintActivity">الاسم</string>
+    <string name="s_c_complaintActivity">الشكوي/المقترح</string>
+    <string name="send_complaintActivity">ارسال</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="order_details_OrderFragment">تفاصيل الطلب:</string>
+    <string name="buy_now_orderFragment">اضافه الي الحقيبه</string>
+    <string name="ammount_ordersFragment">الكميه</string>
+    <string name="desc_fragmentDescription">الوصف</string>
+    <string name="reserve_table_ReservationActivity">قم بارسال اسمك ورقم الهاتف وسنقوم بالتواصل معك لحجز طاولتك</string>
+    <string name="offers">العروض</string>
+    <string name="my_orders_menu">طلباتي</string>
+    <string name="branches_menu">الفروع</string>
+    <string name="logout_menu">تسجيل الخروج</string>
+    <string name="login_text_signinActivity">برجاء القيام بتسجيل الدخول...</string>
+    <string name="password_signinActivity">كلمة المرور</string>
+    <string name="cpassword_signinActivity">تاكيدكلمة المرور</string>
+    <string name="signin_signInActivity">تسجيل الدخول</string>
+    <string name="registeration_registerActivity">قم بادخال بياناتك لتسجيل الحساب...</string>
+    <string name="registeration_signUpActivity">تسجيل الحساب</string>
+    <string name="welcome_message_regestrationActivity">مرحبا بكم في تطبيق طيبات</string>
+    <string name="continue_bagActivity">استمرار</string>
+    <string name="count_items_bag_details">الكميه:</string>
+    <string name="remove_itemsBagDetails">حذف</string>
+    <string name="size_items_fragment_order">الحجم:</string>
+    <string name="type_items_fragment_order">النوع:</string>
+    <string name="price_items_fragment_order">السعر:</string>
+    <string name="how_to_receive_order_deliverWay">من فضلك قم باختيار طريقة استلام الطلب</string>
+    <string name="deliver_home_DeliveryWay">توصيل الي المنزل</string>
+    <string name="take_from_restaurant_deliveryWay">الاستلام من المطعم</string>
+    <string name="choose_city_locationActivity">من فصلك اختار المنطقه التابع لها عنوانك:</string>
+    <string name="total_orders_ckeckActivity">اجمالي عدد الطلبات</string>
+    <string name="payment_checkActivity_button">الدفع</string>
+    <string name="total_bill_checkActivity">اجمالي الفاتوره</string>
+    <string name="please_choose_location_locationActivity">من فضلك قم باختيار موقعك:</string>
+    <string name="shipping_fees_checkActivity">خدمة التوصيل</string>
+    <string name="cancel_item_my_order">الغاء</string>
+    <string name="serial_number_itemMyOrders">الرقم المرجعي:</string>
+    <string name="total_order_price_itemMyOrders">اجمالي الطلب:</string>
+    <string name="order_date_itemMyOrders">تاريخ الطلب:</string>
+    <string name="forget_password_ForgetActivity">برجاء ادخال البريد الالكتروني لارسال رابط تغيير كلمة المرور</string>
+    <string name="notes_paymentActivity">ملاحظات:</string>
+    <string name="write_notes_paymentActivity">اكتب ملاحظاتك هنا....</string>
+    <string name="payment_way_paymentActivity">طريقة الدفع :</string>
+    <string name="confirm_order_paymentActivity">تاكيد الطلب</string>
+    <string name="cash_payment_paymentActivity">الدفع عند الاستلام </string>
+    <string name="online_payment_paymentAcivity">الدفع الالكتروني</string>
+
+    <!-- Notification -->
+    <string name="channel_ID">TaybatFirebaseChannel</string>
+    <string name="channel_name">TaybatAlarms</string>
+    <string name="channel_description">FirebaseNotificationChannel</string>
+    <string name="forget_password_fogotPasswodActivity">نسيت كلمة المرور</string>
+    <string name="callories">المعلومات الغذائيه</string>
+    <string name="allergens_fragmentDescription">مسببات الحساسيه</string>
+
+</resources>

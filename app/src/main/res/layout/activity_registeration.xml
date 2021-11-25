@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_grey_color"
+    tools:context=".ui.ConfirmationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/yellow_rectangle_registeration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/signIn_registrationActivity_button"
+            android:textSize="20sp"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/white_rectangle"
+             android:fontFamily="@font/stv_bold"
+            android:text="@string/signin_signInActivity"
+            android:textColor="@color/app_main_color_brown"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_message_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="108dp" />
+
+        <Button
+            android:id="@+id/sign_up_registrationActivity_button"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/white_rectangle"
+             android:fontFamily="@font/stv_bold"
+            android:text="@string/registeration_signUpActivity"
+            android:textColor="@color/app_main_color_brown"
+            app:layout_constraintTop_toBottomOf="@+id/signIn_registrationActivity_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/welcome_message_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+             android:fontFamily="@font/stv_bold"
+            android:text="@string/welcome_message_regestrationActivity"
+            android:textColor="@color/white_color"
+            android:textSize="22sp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Test Restaurant</string>
+    <string name="contact_info_reviewActivity">معلومات الاتصال</string>
+    <string name="last_name_reviewActivity">الاسم الاخير</string>
+    <string name="first_name_reviewActivity">الاسم الاول</string>
+    <string name="comments_reviewActivity">التعليقات</string>
+    <string name="review_reviewActivity">التقييم</string>
+    <string name="send_reviewActivity">ارسال</string>
+    <string name="phone_reviewActivity">الهاتف</string>
+    <string name="email_reviewActivity">البريد الالكتروني</string>
+    <string name="close">اغلاق</string>
+    <string name="open">فتح</string>
+    <string name="menu_home">الرئيسيه</string>
+    <string name="menu_bag">حقيبتك</string>
+    <string name="menu_suggestion">الاقتراحات</string>
+    <string name="menu_tables">الطاولات</string>
+    <string name="menu_review">التقييم</string>
+    <string name="menu_about_us">عن المطعم</string>
+    <string name="restaurant_name">اسم المطعم</string>
+    <string name="back_confirmastionActivity">للخلف</string>
+    <string name="suggest_title_complaintsActivity">تواصل معنا اذا كان لديك اي شكاوي او مقترحات</string>
+    <string name="A.K.D_complaintsActivity">المملكه العربيه السعوديه</string>
+    <string name="restauramt_address_complaintActivity">شارع الستين,طريق الشفاء,الطائف</string>
+    <string name="restaurant_phone_complaintsActivity">+996555007876</string>
+    <string name="name_complaintActivity">الاسم</string>
+    <string name="s_c_complaintActivity">الشكوي/المقترح</string>
+    <string name="send_complaintActivity">ارسال</string>
+    <string name="price_itemsDetailsFoodMenu">Price: $</string>
+    <string name="morning">صباح الخير</string>
+    <string name="afternoon">مساء الخير</string>
+
+
+
+</resources>

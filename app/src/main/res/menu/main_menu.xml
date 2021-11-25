@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+             android:fontFamily="@font/stv_bold"
+            android:icon="@drawable/home_icon"
+            android:title="@string/menu_home"
+            />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bag"
+             android:fontFamily="@font/stv_bold"
+            android:icon="@drawable/shopping_cart"
+            android:title="@string/menu_bag" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/offer_icon"
+            android:title="@string/offers" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_reservation"
+            android:icon="@drawable/table"
+            android:title="@string/menu_tables" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/my_orders_icon"
+            android:title="@string/my_orders_menu" />
+    </group>
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_suggestion"
+            android:icon="@drawable/suggest_icon"
+            android:title="@string/menu_suggestion" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_review"
+            android:icon="@drawable/rate_icon"
+            android:title="@string/menu_review" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/about_icon"
+            android:title="@string/menu_about_us" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_branches"
+            android:icon="@drawable/branches_icon"
+            android:title="@string/branches_menu" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+             android:fontFamily="@font/stv_bold"
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/logout_menu" />
+    </group>
+
+
+
+
+</menu>
